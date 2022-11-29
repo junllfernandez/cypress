@@ -1,0 +1,29 @@
+{
+  "extends": "./cypress.json",
+  "chromeWebSecurity": false,
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report/Prod_ACC",
+    "reportFilename": "Prod_ACC",
+    "charts": true,
+    "reportPageTitle": "The ACC Prod site",
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "embeddedScreenshots": true,
+    "timestamp": "dd/mm/yyyy_HH:MM.ss"
+  },
+  "env": {
+    "url": "https://www.theaccnz.com/",
+    "podcast": "podcasts/",
+    "shows": "shows/",
+    "win": "win/",
+    "latest": "blogs/",
+
+    "image": "acc.png",
+    "name": "ACC",
+    "slogan": "Your Home For Sports Entertainment"
+  }
+}

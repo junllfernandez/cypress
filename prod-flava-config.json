@@ -1,0 +1,29 @@
+{
+  "extends": "./cypress.json",
+  "chromeWebSecurity": false,
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report/Prod_Flava",
+    "reportFilename": "Prod_Flava",
+    "charts": true,
+    "reportPageTitle": "The Flava Prod site",
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "embeddedScreenshots": true,
+    "timestamp": "dd/mm/yyyy_HH:MM.ss"
+  },
+  "env": {
+    "url": "https://www.flava.co.nz/",
+    "podcast": "shows/flava-breakfast-with-stace-mike-anika/podcast/",
+    "shows": "shows/",
+    "win": "win/",
+    "latest": "the-latest/",
+
+    "image": "flava.png",
+    "name": "Flava",
+    "slogan": "Old School Hip Hop & RnB"
+  }
+}

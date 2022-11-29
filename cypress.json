@@ -1,0 +1,17 @@
+{
+  "chromeWebSecurity": false,
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-mochawesome-reporter",
+ 
+  "env": {
+    "url": [
+      "https://www.hauraki.co.nz/",
+      "https://www.theaccnz.com/",
+      "https://www.thehits.co.nz/",
+      "https://www.zmonline.com/",
+      "https://www.thecoast.net.nz/",
+      "https://www.flava.co.nz/"
+    ]
+  }
+}

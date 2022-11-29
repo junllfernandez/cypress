@@ -1,0 +1,29 @@
+{
+  "extends": "./cypress.json",
+  "chromeWebSecurity": false,
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report/Prod_Coast",
+    "reportFilename": "Prod_Coast",
+    "charts": true,
+    "reportPageTitle": "The Coast Prod site",
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "embeddedScreenshots": true,
+    "timestamp": "dd/mm/yyyy_HH:MM.ss"
+  },
+  "env": {
+    "url": "https://www.thecoast.net.nz/",
+    "podcast": "shows/breakfast-with-toni-jase-sam/breakfast-catchup-podcast/",
+    "shows": "shows/",
+    "win": "win/",
+    "latest": "whats-on/",
+
+    "image": "coast.png",
+    "name": "Coast",
+    "slogan": "Feel Good"
+  }
+}

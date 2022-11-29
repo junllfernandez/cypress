@@ -1,0 +1,29 @@
+{
+  "extends": "./cypress.json",
+  "chromeWebSecurity": false,
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/report/Prod_TheHits",
+    "reportFilename": "Prod_TheHits",
+    "charts": true,
+    "reportPageTitle": "The Hits Prod site",
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "embeddedScreenshots": true,
+    "timestamp": "dd/mm/yyyy_HH:MM.ss"
+  },
+  "env": {
+    "url": "https://www.thehits.co.nz/",
+    "podcast": "shows/breakfast-with-jono-ben/jono-ben-the-podcast/",
+    "shows": "shows/",
+    "win": "win/",
+    "latest": "the-latest/",
+
+    "image": "hits.png",
+    "name": "The Hits",
+    "slogan": "All The Hits You Know And Love"
+  }
+}

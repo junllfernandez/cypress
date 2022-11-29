@@ -1,0 +1,20 @@
+{
+  "extends": "./cypress.json",
+  "chromeWebSecurity": false,
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report/Prod_NewstalkZB",
+    "reportFilename": "Prod_NewstalkZB",
+    "charts": true,
+    "reportPageTitle": "NewstalkZB dev site",
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "timestamp": "dd/mm/yyyy_HH:MM.ss"
+  },
+  "env": {
+    "url": ["https://www.newstalkzb.co.nz"]
+  }
+}

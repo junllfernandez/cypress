@@ -1,0 +1,22 @@
+{
+  "Station": {
+    "Name": "Radio Hauraki",
+    "Image": {
+      "DefaultSourceUrl": "/media/4020290/07065_podcast_635x395.jpg?mode=pad&rnd=132628776010270000",
+      "AlternativeText": null
+    },
+    "Slogan": "Music that ROCKS",
+    "StreamingUrl": "https://www.iheart.com/live/Radio-Hauraki-6191/?autoplay=true"
+  },
+  "CurrentShow": { "Name": "Test show" },
+  "RecordingList": {
+    "NowPlaying": {
+      "Name": "TEST SHOW AVAILABLE WITH IMAGE - THE BANDIT",
+      "ArtistName": "KINGS OF LEON",
+      "Image": {
+        "DefaultSourceUrl": "https://img.iheart.com/sca/imscale?w=80&img=http://image.iheart.com/ihr-ingestion-pipeline-production-sbmg/A10301A00042732660_20210104192116796/62325188.20126.jpg",
+        "AlternativeText": null
+      }
+    }
+  }
+}

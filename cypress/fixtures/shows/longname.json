@@ -1,0 +1,19 @@
+{
+  "Station": {
+    "Name": "Radio Hauraki",
+    "Image": {
+      "DefaultSourceUrl": "/media/4020290/07065_podcast_635x395.jpg?mode=pad&rnd=132628776010270000",
+      "AlternativeText": null
+    },
+    "Slogan": "Music that ROCKS",
+    "StreamingUrl": "https://www.iheart.com/live/Radio-Hauraki-6191/?autoplay=true"
+  },
+  "CurrentShow": { "Name": null },
+  "RecordingList": {
+    "NowPlaying": {
+      "Name": " TEST VERY LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONG NAME",
+      "ArtistName": "NICK CAVE AND THE BAD SEEDS",
+      "Image": null
+    }
+  }
+}

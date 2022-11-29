@@ -1,0 +1,29 @@
+{
+  "extends": "./cypress.json",
+  "chromeWebSecurity": false,
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report/Prod_ZM",
+    "reportFilename": "Prod_ZM",
+    "charts": true,
+    "reportPageTitle": "The ZM Prod site",
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "embeddedScreenshots": true,
+    "timestamp": "dd/mm/yyyy_HH:MM.ss"
+  },
+  "env": {
+    "url": "https://www.zmonline.com/",
+    "podcast": "listen/podcasts/",
+    "shows": "shows/",
+    "win": "win/",
+    "latest": "whats-on/",
+
+    "image": "zm.png",
+    "name": "ZM",
+    "slogan": "Hit Music Lives Here"
+  }
+}

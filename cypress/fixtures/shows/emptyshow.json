@@ -1,0 +1,19 @@
+{
+  "Station": {
+    "Name": "Radio Hauraki",
+    "Image": {
+      "DefaultSourceUrl": "/media/2587709/02338-hauraki-50th-advert-800x500.jpg?mode=pad&rnd=132628776009770000",
+      "AlternativeText": null
+    },
+    "Slogan": "TEST SHOW EMPTY - Music that ROCKS",
+    "StreamingUrl": "https://www.iheart.com/live/Radio-Hauraki-6191/?autoplay=true"
+  },
+  "CurrentShow": { "Name": null },
+  "RecordingList": {
+    "NowPlaying": {
+      "Name": null,
+      "ArtistName": null,
+      "Image": null
+    }
+  }
+}

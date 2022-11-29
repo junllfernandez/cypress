@@ -1,0 +1,29 @@
+{
+  "extends": "./cypress.json",
+  "chromeWebSecurity": false,
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report/Prod_Hauraki",
+    "reportFilename": "Prod_Hauraki",
+    "charts": true,
+    "reportPageTitle": "Hauraki Prod site",
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "embeddedScreenshots": true,
+    "timestamp": "dd/mm/yyyy_HH:MM.ss"
+  },
+  "env": {
+    "url": "https://www.hauraki.co.nz/",
+    "podcast": "podcasts/",
+    "shows": "shows/",
+    "win": "winning/",
+    "latest": "the-acc/",
+
+    "image": "hauraki.png",
+    "name": "Hauraki",
+    "slogan": "Music That Rocks"
+  }
+}

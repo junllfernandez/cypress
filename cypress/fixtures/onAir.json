@@ -1,0 +1,41 @@
+[
+  {
+    "id": "acc",
+    "image": "acc.png",
+    "name": "ACC",
+    "slogan": "Your Home For Sports Entertainment"
+  },
+  {
+    "id": "coast",
+    "image": "coast.png",
+    "name": "Coast",
+    "slogan": "Feel Good"
+  },
+  {
+    "id": "flava",
+    "image": "flava.png",
+    "name": "Flava",
+    "slogan": "Old School Hip Hop & RnB"
+  },
+  {
+    "id": "hauraki",
+    "image": "hauraki.png",
+    "name": "Hauraki",
+    "slogan": "Music That Rocks"
+  },
+  {
+    "id": "hits",
+    "image": "hits.png",
+    "name": "The Hits",
+    "slogan": "All The Hits You Know And Love"
+  },
+  {
+    "id": "zm",
+    "image": "zm.png",
+    "name": "ZM",
+    "slogan": "Hit Music Lives Here"
+  },
+  {
+    "id": "zb"
+  }
+]
